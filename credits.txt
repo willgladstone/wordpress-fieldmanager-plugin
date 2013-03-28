@@ -1,0 +1,10 @@
+This in a blank FM plugin template used to a plugin build on the wordpress-fieldmanager framework
+
+Authors:
+
+* Brad Campeau-Laurion, Chief Technologist, Alley Interactive LLC
+* Will Gladstone, Software Developer, Alley Interactive LLC
+
+Open Source components consulted or used:
+
+* [03/28/13] Dependency on the wordpress-fieldmanager framework

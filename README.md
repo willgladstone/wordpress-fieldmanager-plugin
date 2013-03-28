@@ -1,0 +1,3 @@
+wordpress-fieldmanager-plugin
+=============================
+This is a blank template for creating a Fieldmanager Plugin.  It uses a plugin dependency class written by Brad Campeau-Laurion to make sure the Fieldmanager core plugin is installed.  Using this template, creating a plugin simply requires creating a class in the php sub-directory and updating the fieldmanager-plugin.php file so that class is being included.
