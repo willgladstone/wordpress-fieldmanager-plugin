@@ -27,7 +27,7 @@ class Fieldmanager_Plugin extends Fieldmanager_Field {
 			'size' => '1'
 		);
 		// Add a Fieldmanager Plugin javascript library
-		fm_add_script( 'fm_plugin_js', 'js/fieldmanager-plugin.js' );
+		wp_enqueue_script( 'fm_plugin_js', fieldmanager_plugin_get_baseurl().'js/fieldmanager-plugin.js' );
 
 		parent::__construct( $options );
 	}

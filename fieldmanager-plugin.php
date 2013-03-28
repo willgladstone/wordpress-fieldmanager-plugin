@@ -13,9 +13,13 @@ Version: 0.1
 Author URI: http://www.alleyinteractive.com/
 */
 
-require_once( dirname( __FILE__ ) . '/php/class-fieldmanager-plugin.php' ); //Alter this. to your new plugin class
-require_once( dirname( __FILE__ ) . '/php/class-plugin-dependency.php' );
-require_once( dirname( __FILE__ ) . '/functions.php' );
+//Be sure to change the name space for these three functions
+function fieldmanager_plugin_init(){
+	require_once( dirname( __FILE__ ) . '/php/class-fieldmanager-plugin.php' ); //Alter this to your new plugin class
+	require_once( dirname( __FILE__ ) . '/php/class-plugin-dependency.php' );
+	require_once( dirname( __FILE__ ) . '/functions.php' );
+}
+add_action('plugins_loaded', 'fieldmanager_plugin_init');
 
 function fieldmanager_plugin_dependency() {
 	$fieldmanager_dependency = new Plugin_Dependency( 'Fieldmanager Plugin', 'Fieldmanager', 'https://github.com/netaustin/wordpress-fieldmanager' ); //Change your plugin title here
