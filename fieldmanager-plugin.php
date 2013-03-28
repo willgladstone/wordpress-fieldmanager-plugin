@@ -6,7 +6,7 @@
  */
 /*
 Plugin Name: Fieldmanager Plugin
-Plugin URI: http://github.com/willgladstone/fieldmanager-terms
+Plugin URI: http://github.com/willgladstone/fieldmanager-plugin
 Description: A blank template for creating Plugins for wordpress-fieldmanager
 Author: Bradford Campeau-Laurion, Will Gladstone
 Version: 0.1
